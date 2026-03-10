@@ -1,14 +1,20 @@
-# NovaFuse‑GMI‑VS  
+# NovaFuse-GMI-VS
+
 ### Guaranteed Mathematical Invariance — Verification Standard
 
-NovaFuse‑GMI‑VS is the public **Verification Standard** for Guaranteed Mathematical Invariance (GMI).
+**NovaFuse-GMI-VS** is the public **Verification Standard** for Guaranteed Mathematical Invariance (GMI).
 
-It defines the minimum, non‑negotiable mathematical safety invariants that an AI system must maintain in order to be considered cyber‑safe.
+It defines the minimum, non-negotiable mathematical safety invariants that an AI system must maintain in order to be considered cyber-safe.
 
-GMI‑VS does **not** control models, modify weights, access prompts, or inspect training data.  
-It provides a deterministic, platform‑agnostic verification layer that produces auditable compliance artifacts.
+GMI-VS does **not** control models, modify weights, access prompts, or inspect training data.
 
-This standard is stewarded and maintained by NovaFuse Technologies as part of the NovaFuse Verification Systems (VS) family.
+It provides a deterministic, platform-agnostic verification layer that produces auditable compliance artifacts.
+
+**VS denotes the NovaFuse Verification System family.**  
+- **GMI-VS** = Verification **Standard** (normative mathematical invariants)  
+- **EPG-VS** = Verification **Suite** (runtime tests, profiles, and certifiable components)
+
+This standard is stewarded and maintained by NovaFuse Technologies.
 
 ## Features
 
@@ -123,7 +129,7 @@ The verification system is configured via `verification.profile.json` with param
 For issues and support:
 
 - **Email**: novafuse.technologies@gmail.com
-- **Repository**: https://github.com/Dartan1983/novafuse-gmi-vs
+- **Repository**: https://github.com/Dartan1983/NovaFuse-GMI-VS
 
 ## License
 
