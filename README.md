@@ -1,8 +1,14 @@
-# GMI-VS (Genesis Machine Intelligence - Verification Suite)
+# NovaFuse‑GMI‑VS  
+### Guaranteed Mathematical Invariance — Verification Standard
 
-## Overview
+NovaFuse‑GMI‑VS is the public **Verification Standard** for Guaranteed Mathematical Invariance (GMI).
 
-GMI-VS is a comprehensive verification and certification suite for NovaFuse Genesis Machine Intelligence systems. This repository provides automated testing, verification, and certificate generation for GMI implementations.
+It defines the minimum, non‑negotiable mathematical safety invariants that an AI system must maintain in order to be considered cyber‑safe.
+
+GMI‑VS does **not** control models, modify weights, access prompts, or inspect training data.  
+It provides a deterministic, platform‑agnostic verification layer that produces auditable compliance artifacts.
+
+This standard is stewarded and maintained by NovaFuse Technologies as part of the NovaFuse Verification Systems (VS) family.
 
 ## Features
 
@@ -122,6 +128,11 @@ For issues and support:
 ## License
 
 This project is part of the NovaFuse ecosystem and is licensed under the NovaFuse License Agreement.
+
+## Repository History Note
+
+This repository supersedes a previously removed public distribution that was impacted by a platform billing issue.
+The GMI‑VS specification and verification model itself are unchanged.
 
 ---
 
