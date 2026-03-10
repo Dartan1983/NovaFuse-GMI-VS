@@ -101,6 +101,13 @@ The verification process tracks key metrics:
 - `timing_jitter_ms_p99`: 99th percentile timing jitter
 - `perturbation_norm`: Perturbation norm measurements
 
+## Documentation
+
+- **Complete README**: Installation, usage, and configuration
+- **GMI-VS Safety**: Security and integrity framework
+- **Compliance Framework**: Governance and regulatory alignment
+- **Repository History**: Transparent development timeline
+
 ## Artifacts
 
 Each verification run generates:
