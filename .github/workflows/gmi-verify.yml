@@ -19,7 +19,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'
+        node-version: '24'
         
     - name: Run GMI Verification
       shell: bash
@@ -71,6 +71,7 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         name: GMI-VS Release ${{ github.run_number }}
+        tag_name: v${{ github.run_number }}
         body: |
           ## GMI-VS Verification Release
           
@@ -96,5 +97,6 @@ jobs:
           GMI_Verification_Standard_Export/GMI_Verification_Package/certificates/*
         draft: false
         prerelease: false
+        generate_release_notes: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
