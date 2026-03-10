@@ -31,7 +31,6 @@ jobs:
     - name: Run GMI Verification
       shell: pwsh
       run: |
-        Set-ExecutionPolicy Bypass -Scope Process -Force
         & GMI_Verification_Standard_Export/GMI_Verification_Package/verify.ps1 -RunTests:$true -IssueCertificate:$true
         
     - name: Upload verification artifacts
